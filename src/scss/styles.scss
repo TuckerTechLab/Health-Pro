@@ -1,0 +1,653 @@
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+.title-label {
+  background-color: var(--blue10);
+  font-size: 16px;
+}
+.section-heading {
+  font-size: 56px;
+}
+.bg-section-light {
+  background-color: #f6f6f9;
+}
+
+.bg-card-light {
+  background-color: #f6f6f9 !important;
+}
+
+.rounded-10 {
+  border-radius: 10px !important;
+}
+
+
+//------------------ Hero ------------------
+.hero-section-tag {
+  background-color: var(--white10);
+  color: var(--white);
+  border: 1px solid var(--white40);
+  font-size: 14px;
+}
+
+.hero-section-heading {
+  font-size: 56px;
+  max-width: 76%;
+  color: var(--white);
+}
+
+.hero-section-text {
+  font-size: 26px;
+  color: var(--white);
+}
+
+.hero-section-call-btn {
+  a {
+    padding: 12px;
+  }
+
+  img {
+    width: 55px;
+  }
+}
+
+.hero-section-call-btn p:first-child {
+  font-size: 18px;
+}
+
+.hero-section-call-btn p:last-child {
+  font-size: 22px;
+}
+
+.hero-section-row {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.hero-image1 {
+  border-bottom-left-radius: 20px;
+  height: 100%;
+}
+
+.hero-image2 {
+  border-bottom-right-radius: 20px;
+  height: 100%;
+  border-left: 5px solid var(--white);
+}
+
+//----------------- Logo Slider Section -----------------
+.slider-section-heading {
+  font-size: 38px;
+}
+.slider-section .slider img {
+  width: 200px;
+  height: 110px;
+}
+
+//----------------- Why Choose Us Section -----------------
+.why-choose-text {
+  font-size: 24px;
+  line-height: 36px;
+}
+.why-choose-btn a {
+  font-size: 24px;
+}
+.why-choose-btn img{
+  width: 30px;
+}
+.card-light-border {
+  border-color: #D7DBDE;
+}
+.why-chose-card {
+  height: 100% !important;
+
+  .card-body {
+    height: 100%;
+  }
+  img {
+    width: 70px;
+  }
+  h3 {
+    color: var(--grey);
+    font-size: 28px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+
+.why-chose-us .card {
+  border-color: #D7DBDE;
+  min-height: 250px !important;
+}
+
+.why-chose-us .card:hover {
+  background-color: #349427;
+}
+
+
+.why-chose-us .card:hover h3,
+.why-chose-us .card:hover p {
+  color: #ffffff !important;
+}
+
+.inactive-icon {
+  display: block;
+}
+
+.active-icon {
+  display: none; /* Hide the active image by default */
+}
+
+/* On hover, show the active image */
+.why-chose-us .card:hover .inactive-icon {
+  display: none; /* Hide the inactive image */
+}
+
+.why-chose-us .card:hover .active-icon {
+  display: block; /* Show the active image */
+}
+
+//------------------- Essential Coverage -------------------
+.essential-heading {
+  color: var(--grey);
+  font-size: 30px;
+}
+.essential-text {
+    font-size: 24px;
+}
+.section-points li img {
+  width: 32px;
+}
+.section-points li div {
+    font-size: 22px;
+}
+.section-points li div span {
+    font-size: 22px;
+  color: var(--grey);
+}
+.essential-content-btn img {
+  width: 30px;
+}
+.section-points li {
+  font-size: 22px;
+}
+.plan-choose-cards .card {
+  height: 100%;
+}
+
+//------------------- Choose Plan -------------------
+.plan-choose-text {
+    font-size: 22px;
+}
+.plan-choose-cards h6 {
+  font-size: 26px;
+}
+.plan-choose-cards p {
+    font-size: 20px;
+  opacity: 60%;
+}
+.plan-choose-cards h2 {
+    font-size: 52px;
+}
+.plan-choose-cards h2 span {
+  font-size: 24px;
+}
+.plan-choose-cards:first-child h2 span {
+  color: var(--grey);
+}
+.plan-choose-cards:last-child h2 span {
+  color: var(--white);
+}
+.plan-choose-card-text {
+  font-size: 20px !important;
+}
+.plan-choose-cards a img {
+  width: 30px;
+}
+.plan-choose-cards a span{
+  font-size: 22px;
+}
+.list-disable {
+  color: var(--disable);
+}
+
+//------------------- Content -------------------
+.contact-card img{
+  width: 36px;
+}
+.contact-card h3 {
+    font-size: 28px;
+    color: var(--grey);
+}
+.contact-card h3:nth-child(1) {
+  color: var(--white);
+}
+
+//----------------- Testimonial Slider -----------------
+.why-choose-text {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.card-image {
+  background-color: var(--grey2);
+}
+
+.card-image-content {
+  background-color: var(--black16);
+  backdrop-filter: blur(60px);
+}
+
+.card-image-content h5 {
+  font-size: 28px;
+}
+
+.card-image-content p {
+  font-size: 22px;
+  opacity: 76%;
+}
+
+.card-content {
+  background: url("../assets/images/microCommitment/Qoutes.png") top right no-repeat;
+  background-size: 65px;
+}
+
+.card-content h3 {
+  font-size: 34px;
+}
+
+.card-content p {
+  font-size: 23px;
+  color: var(--grey);
+}
+
+.arrow-wrapper {
+  max-width: 188px;
+  margin-top: -100px;
+}
+
+.arrow-wrapper button img {
+  width: 70px;
+}
+
+
+
+
+
+//--------------- Media Queries -----------------
+@media (max-width: 1440px) {
+  .hero-section-heading {
+    max-width: 88%;
+    font-size: 46px;
+  }
+  .hero-section-text {
+    font-size: 20px;
+  }
+  .hero-section-tag {
+    font-size: 12px;
+  }
+  .hero-section-call-btn p:first-child {
+    font-size: 14px;
+  }
+  .hero-section-call-btn p:last-child {
+    font-size: 16px;
+  }
+  .hero-section-call-btn img {
+    width: 40px;
+  }
+
+  //--------- Slider Section ------
+  .slider-section-heading {
+    font-size: 34px;
+  }
+  .slider-section .slider img {
+    width: 150px;
+    height: 110px;
+  }
+
+  //-------- Why choose Section -------
+  .title-label {
+    font-size: 14px;
+  }
+  .section-heading {
+    font-size: 48px;
+  }
+  .why-choose-text {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .why-choose-btn img {
+    width: 25px;
+  }
+  .why-choose-btn a {
+    font-size: 16px;
+  }
+  .why-chose-card img {
+    width: 60px;
+  }
+  .why-chose-card h3 {
+    font-size: 22px;
+  }
+  .why-chose-card p {
+    font-size: 17px;
+  }
+
+  //-------- Essential Coverage -------
+  .essential-heading {
+    font-size: 26px;
+  }
+  .essential-text {
+    font-size: 20px;
+  }
+  .section-points li img {
+     width: 28px;
+  }
+  .section-points li {
+    gap: 10px !important;
+  }
+  .section-points li div, .section-points li div span {
+    font-size: 18px;
+  }
+  .essential-content-btn img {
+    width: 22px;
+  }
+  .essential-content-btn {
+    font-size: 16px !important;
+  }
+
+  .plan-choose-cards a img {
+    width: 28px;
+  }
+
+  .contact-card h3 {
+    font-size: 24px;
+  }
+
+  //----------------- Testimonial Slider ----------------
+  .why-choose-text {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .card-image-content h5 {
+    font-size: 24px;
+  }
+  .card-image-content p {
+    font-size: 18px;
+  }
+  .card-content img {
+    width: 210px;
+  }
+  .card-content h3 {
+    font-size: 30px;
+  }
+  .card-content p {
+    font-size: 24px;
+  }
+  .arrow-wrapper button img {
+    width: 60px;
+  }
+  .card-content {
+    background-size: 60px;
+  }
+
+}
+
+@media (max-width: 1350px) {
+  .hero-section-heading {
+    max-width: 92%;
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-section-heading {
+    max-width: 88%;
+    font-size: 42px;
+  }
+
+  //--------- Slider Section ------
+  .slider-section .slider img {
+    width: 120px;
+    height: 65px;
+  }
+
+  .plan-choose-cards a img {
+    width: 26px;
+  }
+
+
+  //--------- Why Choose US Section ------
+  .why-chose-card h3 {
+    font-size: 18px;
+  }
+  .why-chose-card p {
+    font-size: 16px;
+  }
+
+  .contact-card h3 {
+    font-size: 22px;
+  }
+
+    //------- Testimonials -------
+  .card-image-content h5 {
+    font-size: 18px;
+  }
+  .card-image-content p {
+    font-size: 14px;
+  }
+  .card-content img {
+    width: 145px;
+  }
+  .card-content h3 {
+    font-size: 24px;
+  }
+  .card-content p {
+    font-size: 18px;
+  }
+  .arrow-wrapper button img {
+    width: 45px;
+  }
+  .arrow-wrapper {
+    margin-top: -80px;
+  }
+  .card-content {
+    background-size: 45px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .hero-image1 {
+    border-radius: 0;
+  }
+  .hero-image2 {
+    border-bottom-left-radius: 14px;
+    margin-top: 5px;
+    border: none;
+  }
+  //--------- Slider Section ------
+  .slider-section .slider img {
+    width: 165px;
+    height: 65px;
+  }
+
+  .plan-choose-cards a img {
+    width: 26px;
+  }
+
+  .contact-card h3 {
+    font-size: 18px;
+  }
+
+  //-------------- Testimonial -------------
+  .card-image-content h5 {
+    font-size: 16px;
+  }
+  .card-image-content p {
+    font-size: 12px;
+  }
+  .card-content img {
+    width: 130px;
+  }
+  .card-content h3 {
+    font-size: 20px;
+  }
+  .card-content p {
+    font-size: 14px;
+  }
+  .arrow-wrapper {
+    max-width: 130px;
+    margin-top: -50px;
+  }
+  .arrow-wrapper button img {
+    width: 38px;
+  }
+  .card-content {
+    background-size: 40px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .plan-choose-cards a img {
+    width: 24px;
+  }
+
+  //------- Testimonial ------
+  .card-image-mobile h5 {
+    font-size: 17px;
+  }
+  .card-image-mobile p {
+    font-size: 16px;
+  }
+  .card-image-mobile img {
+    width: 150px;
+    object-fit: cover;
+  }
+  .card-image-mobile {
+    background: url("../assets/images/microCommitment/Qoutes.png") top right no-repeat;
+    background-size: 30px;
+  }
+  .arrow-wrapper {
+    max-width: 100%;
+    margin-top: -20px;
+  }
+  .card-content p {
+    font-size: 16px;
+  }
+}
+
+@media (width < 768px) {
+  .arrow-wrapper {
+    margin-top: 20px;
+  }
+  .card-content {
+    background: none;
+  }
+  .card-image-mobile-radius {
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .call-to-action a {
+    padding: 10px 14px;
+
+    img {
+      width: 12px;
+    }
+  }
+  .call-to-action a {
+    font-size: 12px !important;
+  }
+  .hero-section-tag {
+    margin-top: 10px;
+    font-size: 12px;
+    display: inline-block;
+  }
+  .hero-section-heading {
+    font-size: 28px;
+  }
+  .hero-section-text {
+    font-size: 16px;
+  }
+  .hero-image2 {
+    height: 160px !important;
+    object-fit: cover;
+  }
+
+  //--------- Slider Section ------
+  .title-label {
+    font-size: 12px;
+  }
+  .slider-section-heading {
+    font-size: 24px;
+  }
+  .slider-section .slider img {
+    width: 120px;
+    height: 65px;
+  }
+  .slick-slide {
+    width: 160px !important;
+  }
+  .slick-slide > div {
+    width: 100%;
+  }
+  .slick-slide > div > div:first-child{
+    justify-content: end;
+  }
+
+  //------- Why Choose Us section -------
+  .section-heading {
+    font-size: 28px;
+  }
+  .why-choose-text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  //------- essential coverage -------
+  .essential-heading {
+    font-size: 22px;
+  }
+  .essential-text {
+    font-size: 18px;
+  }
+  .section-points li div, .section-points li div span {
+    font-size: 16px;
+  }
+
+  //------- Plan Choose -------
+  .plan-choose-cards h6 {
+    font-size: 20px;
+  }
+  .plan-choose-cards p {
+    font-size: 16px !important;
+  }
+  .plan-choose-cards h2 {
+    font-size: 40px;
+  }
+  .plan-choose-cards h2 span {
+    font-size: 18px;
+  }
+  .section-points li {
+    font-size: 16px;
+  }
+  .plan-choose-cards a span {
+    font-size: 16px;
+  }
+  .plan-choose-cards a img {
+    width: 20px;
+  }
+
+  //----------------- Testimonial Slider ----------------
+  .why-choose-text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+}

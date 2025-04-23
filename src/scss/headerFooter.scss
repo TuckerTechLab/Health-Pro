@@ -1,0 +1,199 @@
+//------------------ Header ------------------
+.logo-image {
+  width: 140px;
+}
+
+.call-to-action a {
+  padding: 10px 18px;
+  font-size: 16px;
+
+  img {
+    width: 22px;
+  }
+}
+
+.extra-header-btn {
+  img {
+    width: 48px !important;
+  }
+
+  p {
+    font-size: 16px;
+    opacity: 70%;
+  }
+
+  span {
+    color: var(--grey) !important;
+    font-size: 16px;
+  }
+}
+
+//------------------- Footer -------------------
+.footer-section {
+  background-color: #000000;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.footer-section-heading {
+  font-size: 50px;
+}
+
+.footer-logo-slogan p {
+  font-size: 18px;
+}
+
+.footer-logo-slogan, .contact-information {
+  border-bottom: 2px solid var(--whiteTransparent);
+}
+
+.footer-logo {
+  width: 450px;
+}
+
+.footer-text-title {
+  color: var(--white);
+  opacity: 70%;
+  font-size: 22px;
+}
+
+.footer-text-info {
+  font-size: 28px;
+  color: var(--white);
+}
+
+.legal-compliance-wrapper {
+  width: 90%;
+}
+
+.legal-compliance {
+  border-left: 2px solid var(--whiteTransparent);
+}
+
+.personal-share-link a {
+  font-size: 20px;
+}
+
+.copyright-text {
+  font-size: 3vw;
+  color: var(--white);
+  opacity: 40%;
+}
+
+
+//--------------- Media Queries -----------------
+@media (max-width: 1440px) {
+  //-------- Header ---------
+  .logo-image {
+    width: 130px;
+  }
+  .extra-header-btn {
+    img {
+      width: 42px !important;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+
+  //-------- Footer  -------
+  .footer-logo {
+    width: 330px;
+  }
+  .footer-section-heading {
+    font-size: 32px;
+  }
+  .footer-text-title {
+    font-size: 16px;
+  }
+  .footer-text-info {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .logo-image {
+    width: 120px;
+  }
+
+  .legal-compliance-wrapper {
+    width: 100%;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .logo-image {
+    width: 110px;
+  }
+
+  //--------- Footer ------
+  .copyright-text {
+    font-size: 2.9vw;
+  }
+  .footer-logo-slogan p, .personal-share-link a {
+    font-size: 16px;
+  }
+  .footer-text-info {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 991px) {
+  .legal-compliance-wrapper {
+    padding-left: 0;
+
+    a {
+      width: 33%;
+    }
+
+    a:last-child {
+      //padding-left: 20px;
+    }
+  }
+  .legal-compliance {
+    border: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo-image {
+    width: 100px;
+  }
+  .call-to-action a {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  //------- footer -------
+  .footer-logo {
+    width: 260px;
+  }
+  .footer-section-heading {
+    font-size: 28px;
+    margin-bottom: 20px !important;
+  }
+  .contact-information address {
+    //border-bottom: 2px solid var(--whiteTransparent);
+    //padding-bottom: 20px;
+  }
+  .legal-compliance-wrapper {
+    padding-top: 10px;
+  }
+  .legal-compliance-wrapper a {
+    width: 100%;
+  }
+
+  .footer-text-info {
+    font-size: 16px;
+  }
+  .footer-logo-slogan p, .personal-share-link a {
+    font-size: 14px;
+  }
+}

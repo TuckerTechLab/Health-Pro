@@ -1,0 +1,37 @@
+{
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "./src/index.html"
+        },
+        {
+            "source": "/micro-commitment",
+            "destination": "./src/micro-commitment.html"
+        },
+        {
+            "source": "/health-plan",
+            "destination": "./src/health-plan.html"
+        },
+        {
+            "source": "/free-quote",
+            "destination": "./src/free-quote.html"
+        },
+        {
+            "source": "/disqualify",
+            "destination": "./src/disqualify.html"
+        },
+        {
+            "source": "/qualification",
+            "destination": "./src/qualification.html"
+        },
+        {
+            "source": "/confirmation",
+            "destination": "./src/confirmation.html"
+        },
+        {
+            "source": "/request-call",
+            "destination": "./src/request-call.html"
+        }
+    ],
+    "cleanUrls": true
+}

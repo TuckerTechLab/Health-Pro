@@ -1,0 +1,402 @@
+.section-heading {
+  font-size: 56px;
+}
+
+.bg-section-light {
+  background-color: #f6f6f9;
+}
+
+.title-label {
+  background-color: var(--blue10);
+  font-size: 16px;
+}
+
+
+//---------------- Form Section -------------
+.why-choose-text {
+  font-size: 20px;
+}
+
+.form-wrapper, .disqualify-section, .request-call-section {
+  border: 1px solid var(--greyWhite);
+}
+
+.form-header-content span {
+  font-size: 18px;
+  background-color: var(--white10);
+  padding: 7px 10px;
+  border: 1px solid var(--white50);
+  opacity: 65%;
+}
+
+.form-header-active span {
+  background-color: #FA9A1B;
+  opacity: 1;
+  border: none;
+}
+
+.form-header-content p {
+  font-size: 22px;
+  opacity: 65%;
+}
+
+.form-header-active p {
+  opacity: 1;
+}
+
+.form-header-content hr {
+  width: 60px;
+  color: var(--white);
+  opacity: 35%;
+}
+
+.form-header-complete hr {
+  opacity: 1;
+}
+
+.form-header-complete span {
+  display: none;
+}
+
+.form-header-complete img {
+  display: block !important;
+}
+
+.form-header-content img {
+  width: 38px;
+}
+
+.step1-form-content, .disqualify-content, .step3-form-content, .request-call-content, .step2-form-content {
+  border-bottom: 1px solid var(--whiteLight1);
+}
+
+.form-heading {
+  font-size: 30px;
+}
+
+.form-text {
+  font-size: 22px;
+}
+
+.form-text-2 {
+  font-size: 19px;
+}
+
+.form-header-complete p {
+  color: var(--white) !important;
+  opacity: 1;
+}
+
+.step1-form-btn-wrapper a {
+  border: 1px solid var(--whiteLight1);
+  color: var(--grey);
+  font-size: 22px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.step1-form-btn-wrapper a:hover{
+  background-color: var(--yellow) !important;
+  color: var(--white) !important;
+}
+
+.disqualify-options, .step2-form-options {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.disqualify-options span, .disqualify-options a , .step2-form-options a{
+  border: 1px solid var(--whiteLight1);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.form-heading-other {
+  font-size: 22px;
+}
+
+.qualify-benefits h6 {
+  font-size: 20px;
+  color: var(--disable);
+}
+
+.qualify-benefits-points p img {
+  width: 32px;
+}
+
+.qualify-benefits-points p span {
+  color: var(--grey);
+  font-size: 24px;
+}
+
+.step3-form-call-btn {
+  a {
+    padding: 12px;
+  }
+
+  img {
+    width: 55px;
+  }
+}
+
+.step3-form-call-btn p:first-child {
+  font-size: 18px;
+}
+
+.step3-form-call-btn p:last-child {
+  font-size: 22px;
+}
+.step3-form-call-buttons p {
+  font-size: 22px;
+}
+.step3-form-enroll {
+  background-color: var(--red4);
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-top: 1px solid var(--greyWhite);
+}
+.step3-form-enroll img {
+  width: 50px;
+}
+.step3-form-enroll p {
+  font-size: 22px;
+  color: var(--grey);
+}
+.request-call-form form input {
+  background-color: #FCFCFC;
+}
+.request-call-form form input::placeholder {
+  color: var(--disable);
+  font-weight: 400;
+}
+.request-call-form form input:focus, .request-call-form form input:active {
+  outline: none;
+  box-shadow: none;
+  border-color: var(--greyWhite);
+}
+.request-call-form .date-form-input::placeholder {
+  text-transform: uppercase;
+}
+.number-form-input::-webkit-outer-spin-button,
+.number-form-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+input[type="date"] {
+  position: relative;
+  color: var(--disable);
+  text-transform: uppercase;
+}
+.request-call-form-buttons a {
+  background-color: var(--whiteLight2);
+  border: 1px solid var(--whiteLight1);
+  font-size: 22px;
+}
+.request-call-form-buttons button {
+  font-size: 22px;
+}
+
+
+//--------------- Media Queries -----------------
+@media (max-width: 1700px) {
+  .section-heading {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .section-heading {
+    font-size: 48px;
+  }
+  .why-choose-text {
+    font-size: 20px;
+  }
+  .form-header-content p {
+    font-size: 20px;
+  }
+  .form-heading {
+    font-size: 26px;
+  }
+  .form-text {
+    font-size: 18px;
+  }
+  .form-text-2 {
+    font-size: 16px;
+  }
+  .step1-form-btn-wrapper a {
+    font-size: 18px;
+  }
+  .step3-form-call-btn p:first-child {
+    font-size: 14px;
+  }
+  .step3-form-call-btn p:last-child {
+    font-size: 16px;
+  }
+  .step3-form-call-btn img {
+    width: 40px;
+  }
+  .form-heading-other {
+    font-size: 20px;
+  }
+  .disqualify-options, .step2-form-options {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+  .disqualify-options span, .disqualify-options a, .step2-form-options a {
+    font-size: 18px;
+  }
+  .qualify-benefits h6 {
+    font-size: 18px;
+  }
+  .qualify-benefits-points p span {
+    font-size: 22px;
+  }
+  .qualify-benefits-points p img {
+    width: 28px;
+  }
+  .step3-form-call-buttons p {
+    font-size: 20px;
+  }
+  .step3-form-enroll img {
+    width: 42px;
+  }
+  .step3-form-enroll p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-heading {
+    font-size: 35px;
+  }
+  .why-choose-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .form-header-outer {
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .form-header {
+    width: 135%;
+  }
+  .form-heading-other {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .request-call-form-buttons a {
+    font-size: 18px;
+  }
+  .request-call-form-buttons button {
+    font-size: 18px;
+  }
+  .request-call-form form input {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-header {
+    width: 175%;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-heading {
+    font-size: 28px;
+  }
+  .why-choose-text {
+    font-size: 18px;
+  }
+
+  .form-header-content p {
+    font-size: 16px;
+  }
+  .form-header-content span {
+    font-size: 16px;
+  }
+  .form-heading {
+    font-size: 20px;
+  }
+  .step1-form-content, .disqualify-content, .step3-form-content, .request-call-content, .step2-form-content {
+    background-color: var(--white) !important;
+  }
+  .form-text {
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  .form-text-2 {
+    font-size: 14px;
+  }
+  .form-header {
+    width: 232%;
+  }
+  .step1-form-btn-wrapper a {
+    font-size: 14px;
+    padding: 10px 15px !important;
+    border-radius: 10px !important;
+  }
+  .form-heading-other {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .disqualify-options, .step2-form-options {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .disqualify-options span, .disqualify-options a, .step2-form-options a {
+    font-size: 14px;
+  }
+  .disqualify-options span img, .step2-form-options a img {
+    width: 30px;
+  }
+  .qualify-benefits h6 {
+    font-size: 14px;
+  }
+  .qualify-benefits-points p {
+    width: 50%;
+    margin-bottom: 15px !important;
+  }
+  .qualify-benefits-points p span {
+    font-size: 19px;
+  }
+  .qualify-benefits-points p img {
+    width: 26px;
+  }
+  .qualify-benefits-points p span:last-child {
+    text-wrap: nowrap;
+  }
+  .step3-form-call-buttons p {
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  .step3-form-enroll p {
+    font-size: 16px;
+  }
+  .step3-form-enroll {
+    padding-bottom: 18px;
+    padding-top: 18px;
+  }
+  .request-call-form form input {
+    font-size: 14px;
+    border-radius: 8px !important;
+  }
+  .request-call-form-buttons button {
+    font-size: 14px;
+    border-radius: 10px !important;
+  }
+  .request-call-form-buttons a {
+    font-size: 14px;
+    border-radius: 10px !important;
+  }
+
+}

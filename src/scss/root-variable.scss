@@ -1,0 +1,160 @@
+:root {
+  --white: #FFFFFF;
+  --white10: #FFFFFF1A;
+  --white40: #FFFFFF66;
+  --white50: #FFFFFF80;
+  --whiteLight: #F6F6F9;
+  --whiteLight1: #D7DBDE;
+  --whiteLight2: #F8F8F8;
+  --whiteLight12: #FFFFFF1F;
+  --whiteLight24: #FFFFFF3D;
+  --whiteTransparent: #D7DBDE5C;
+  --red4: #FF00000A;
+  --blue: #0577B3;
+  --blue10: #0577B31A;
+  --grey: #3B3E40;
+  --grey2: #E5E9ED;
+  --greyWhite: #D7DBDE;
+  --disable: #888A8B;
+  --black16: #00000029;
+  --yellow: #FA9A1B;
+}
+
+// Define Mulish font
+@font-face {
+  font-family: "Figtree";
+  src: url("../assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+body {
+  font-family: "Figtree", sans-serif !important;
+}
+
+
+.fs-10 {
+  font-size: 10px !important;
+}
+
+.fs-11 {
+  font-size: 11px !important;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.fs-13 {
+  font-size: 13px !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+.fs-15 {
+  font-size: 15px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.fs-17 {
+  font-size: 17px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-19 {
+  font-size: 19px !important;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+.fs-21 {
+  font-size: 21px !important;
+}
+
+.fs-22 {
+  font-size: 22px !important;
+}
+
+.fs-23 {
+  font-size: 23px !important;
+}
+
+.fs-24 {
+  font-size: 24px !important;
+}
+
+.fs-25 {
+  font-size: 25px !important;
+}
+
+.fs-26 {
+  font-size: 26px !important;
+}
+
+.fs-27 {
+  font-size: 27px !important;
+}
+
+.fs-28 {
+  font-size: 28px !important;
+}
+
+.fs-29 {
+  font-size: 29px !important;
+}
+
+.fs-30 {
+  font-size: 30px !important;
+}
+
+.fw-100 {
+  font-weight: 100 !important;
+}
+
+/* Thin */
+.fw-200 {
+  font-weight: 200 !important;
+}
+
+/* Extra Light */
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+/* Light */
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+/* Regular (Normal) */
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+/* Medium */
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+/* Semi Bold */
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+/* Bold */
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+/* Extra Bold */
+.fw-900 {
+  font-weight: 900 !important;
+}
