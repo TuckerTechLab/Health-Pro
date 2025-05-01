@@ -226,53 +226,6 @@
   color: var(--white);
 }
 
-//----------------- Testimonial Slider -----------------
-.why-choose-text {
-  font-size: 24px;
-  line-height: 36px;
-}
-
-.card-image {
-  background-color: var(--grey2);
-}
-
-.card-image-content {
-  background-color: var(--black16);
-  backdrop-filter: blur(60px);
-}
-
-.card-image-content h5 {
-  font-size: 28px;
-}
-
-.card-image-content p {
-  font-size: 22px;
-  opacity: 76%;
-}
-
-.card-content {
-  background: url("../assets/images/microCommitment/Qoutes.png") top right no-repeat;
-  background-size: 65px;
-}
-
-.card-content h3 {
-  font-size: 34px;
-}
-
-.card-content p {
-  font-size: 23px;
-  color: var(--grey);
-}
-
-.arrow-wrapper {
-  max-width: 188px;
-  margin-top: -100px;
-}
-
-.arrow-wrapper button img {
-  width: 70px;
-}
-
 
 
 
@@ -366,33 +319,6 @@
     font-size: 24px;
   }
 
-  //----------------- Testimonial Slider ----------------
-  .why-choose-text {
-    font-size: 22px;
-    line-height: 33px;
-  }
-  .card-image-content h5 {
-    font-size: 24px;
-  }
-  .card-image-content p {
-    font-size: 18px;
-  }
-  .card-content img {
-    width: 210px;
-  }
-  .card-content h3 {
-    font-size: 30px;
-  }
-  .card-content p {
-    font-size: 24px;
-  }
-  .arrow-wrapper button img {
-    width: 60px;
-  }
-  .card-content {
-    background-size: 60px;
-  }
-
 }
 
 @media (max-width: 1350px) {
@@ -406,6 +332,10 @@
   .hero-section-heading {
     max-width: 88%;
     font-size: 42px;
+  }
+  .legal-compliance-wrapper {
+    width: 100%;
+    padding-left: 30px;
   }
 
   //--------- Slider Section ------
@@ -431,31 +361,9 @@
     font-size: 22px;
   }
 
-    //------- Testimonials -------
-  .card-image-content h5 {
-    font-size: 18px;
-  }
-  .card-image-content p {
-    font-size: 14px;
-  }
-  .card-content img {
-    width: 145px;
-  }
-  .card-content h3 {
-    font-size: 24px;
-  }
-  .card-content p {
-    font-size: 18px;
-  }
-  .arrow-wrapper button img {
-    width: 45px;
-  }
-  .arrow-wrapper {
-    margin-top: -80px;
-  }
-  .card-content {
-    background-size: 45px;
-  }
+}
+
+@media (max-width: 1024px) {
 
 }
 
@@ -481,75 +389,28 @@
   .contact-card h3 {
     font-size: 18px;
   }
-
-  //-------------- Testimonial -------------
-  .card-image-content h5 {
-    font-size: 16px;
-  }
-  .card-image-content p {
-    font-size: 12px;
-  }
-  .card-content img {
-    width: 130px;
-  }
-  .card-content h3 {
-    font-size: 20px;
-  }
-  .card-content p {
-    font-size: 14px;
-  }
-  .arrow-wrapper {
-    max-width: 130px;
-    margin-top: -50px;
-  }
-  .arrow-wrapper button img {
-    width: 38px;
-  }
-  .card-content {
-    background-size: 40px;
-  }
 }
 
+@media (max-width: 991px) {
+  .legal-compliance-wrapper {
+    padding-left: 0;
 
+    a {
+      width: 50%;
+    }
+
+    a:last-child {
+      padding-left: 20px;
+    }
+  }
+  .legal-compliance {
+    border: none;
+  }
+}
 
 @media (max-width: 768px) {
   .plan-choose-cards a img {
     width: 24px;
-  }
-
-  //------- Testimonial ------
-  .card-image-mobile h5 {
-    font-size: 17px;
-  }
-  .card-image-mobile p {
-    font-size: 16px;
-  }
-  .card-image-mobile img {
-    width: 150px;
-    object-fit: cover;
-  }
-  .card-image-mobile {
-    background: url("../assets/images/microCommitment/Qoutes.png") top right no-repeat;
-    background-size: 30px;
-  }
-  .arrow-wrapper {
-    max-width: 100%;
-    margin-top: -20px;
-  }
-  .card-content p {
-    font-size: 16px;
-  }
-}
-
-@media (width < 768px) {
-  .arrow-wrapper {
-    margin-top: 20px;
-  }
-  .card-content {
-    background: none;
-  }
-  .card-image-mobile-radius {
-    border-radius: 15px;
   }
 }
 
@@ -642,12 +503,6 @@
   }
   .plan-choose-cards a img {
     width: 20px;
-  }
-
-  //----------------- Testimonial Slider ----------------
-  .why-choose-text {
-    font-size: 18px;
-    line-height: 25px;
   }
 
 }

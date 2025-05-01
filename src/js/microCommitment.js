@@ -23,7 +23,7 @@ $(document).ready(function () {
         slidesToShow: 6,      // Show 5 images at a time
         slidesToScroll: 3,    // Scroll 1 slide at a time
         autoplay: true,       // Enable autoplay
-        autoplaySpeed: 2000,  // Autoplay speed (ms)
+        autoplaySpeed: 3000,  // Autoplay speed (ms)
         arrows: false,         // Show next/prev arrows
         adaptiveHeight: true, // Adjust height dynamically
         responsive: [
@@ -55,97 +55,68 @@ $(document).ready(function () {
 
 // ----------- Form ----------
 document.addEventListener("DOMContentLoaded", function () {
-    const stepsWrapper = document.querySelector(".steps-section-wrapper");
-    const disqualifySection = document.querySelector(".disqualify-section");
-    const requestCallSection = document.querySelector(".request-call-section");
-
     const step1Form = document.querySelector(".step1-form");
     const step2Form = document.querySelector(".step2-form");
     const step3Form = document.querySelector(".step3-form");
+    const radioButtons = document.querySelectorAll(".step1-form-btn-wrapper input[type='radio']");
 
-    const goBackBtns = document.querySelectorAll(".goBackBtn");
-    const requestCallGoBack = document.querySelector(".request-call-goBack");
+    const step1Header = document.querySelectorAll(".form-header-content")[0]; // Step 1 header
+    const step2Header = document.querySelectorAll(".form-header-content")[1]; // Step 2 header
+    const step3Header = document.querySelectorAll(".form-header-content")[2]; // Step 3 header
 
-    const requestCallBtn = document.querySelector(".form-request-call-btn");
-    const step2Options = document.querySelectorAll(".step2-form-options span");
+    const stepFormDiv1 = document.querySelector(".step-form-div-1"); // First part of Step 2
+    const stepFormDiv2 = document.querySelector(".step-form-div-2"); // Second part of Step 2
+    const noBtn = document.querySelector(".step2-form-options span:first-child"); // "No" button
+    const yesBtn = document.querySelector(".step2-form-options span:last-child"); // "Yes" button
+    const goBackBtn = document.querySelector(".goBackBtn"); // "Back to Steps" button
 
-    const formHeaders = document.querySelectorAll(".form-header-content");
-    const formHeaderOuter = document.querySelector(".form-header-outer"); // Header wrapper for scrolling
-
-    // Function to scroll to the next step header
-    function scrollToNextHeader(stepIndex) {
-        if (window.innerWidth < 992) {
-            const nextHeader = formHeaders[stepIndex];
-
-            if (nextHeader) {
-                const containerWidth = formHeaderOuter.clientWidth; // Width of the scrollable container
-                const targetOffset = nextHeader.offsetLeft - formHeaderOuter.offsetLeft; // Correct offset
-
-                formHeaderOuter.scrollTo({
-                    left: targetOffset - containerWidth / 2 + nextHeader.clientWidth / 2, // Center the header
-                    behavior: "smooth",
-                });
-            }
-        }
-    }
-
-    // Step 1: Handle Radio Button Selection
-    document.querySelectorAll("input[name='Quote']").forEach((radio) => {
+    // Handle Step 1 -> Step 2 Transition
+    radioButtons.forEach((radio) => {
         radio.addEventListener("change", function () {
-            if (this.id === "Medicare" || this.id === "Medicaid") {
-                // Hide steps and show disqualify section
-                stepsWrapper.classList.add("d-none");
-                disqualifySection.classList.remove("d-none");
-            } else {
-                // Move to Step 2 when any other option is selected
-                step1Form.classList.add("d-none");
-                step2Form.classList.remove("d-none");
+            if (this.checked) {
+                setTimeout(() => {
+                    step1Form.classList.add("d-none");
+                    step2Form.classList.remove("d-none");
 
-                // Update form header styles
-                formHeaders[0].classList.add("form-header-complete");
-                formHeaders[1].classList.add("form-header-active");
-
-                // Scroll to Step 2 header
-                scrollToNextHeader(1);
+                    step1Header.classList.remove("form-header-active");
+                    step1Header.classList.add("form-header-complete");
+                    step2Header.classList.add("form-header-active");
+                }, 500)
             }
         });
     });
 
-    // Back to Steps (Show steps-section-wrapper again)
-    goBackBtns.forEach((btn) => {
-        btn.addEventListener("click", function () {
-            disqualifySection.classList.add("d-none");
-            stepsWrapper.classList.remove("d-none");
-        });
+    // Handle "No" Click -> Show Step 2.2
+    noBtn.addEventListener("click", function () {
+        stepFormDiv1.classList.add("d-none");
+        stepFormDiv2.classList.remove("d-none");
     });
 
-    // Step 2 Options (Move to Step 3)
-    step2Options.forEach((option) => {
-        option.addEventListener("click", function () {
-            step2Form.classList.add("d-none");
-            step3Form.classList.remove("d-none");
+    // Handle "Yes" Click -> Move to Step 3
+    yesBtn.addEventListener("click", function () {
+        step2Form.classList.add("d-none");
+        step3Form.classList.remove("d-none");
 
-            // Update form header styles
-            formHeaders[1].classList.add("form-header-complete");
-            formHeaders[2].classList.add("form-header-active");
-
-            // Scroll to Step 3 header
-            scrollToNextHeader(2);
-        });
+        step2Header.classList.remove("form-header-active");
+        step2Header.classList.add("form-header-complete");
+        step3Header.classList.add("form-header-active");
     });
 
-    // Request Call Button
-    requestCallBtn.addEventListener("click", function () {
-        stepsWrapper.classList.add("d-none");
-        requestCallSection.classList.remove("d-none");
-    });
+    // Handle "Back to Steps" Click -> Return to Step 1
+    goBackBtn.addEventListener("click", function () {
+        step2Form.classList.add("d-none");
+        step1Form.classList.remove("d-none");
 
-    // Request Call Go Back
-    requestCallGoBack.addEventListener("click", function () {
-        requestCallSection.classList.add("d-none");
-        stepsWrapper.classList.remove("d-none");
+        step2Header.classList.remove("form-header-active");
+        step1Header.classList.remove("form-header-complete");
+        step1Header.classList.add("form-header-active");
+
+        stepFormDiv1.classList.remove("d-none");
+        stepFormDiv2.classList.add("d-none");
     });
 });
+
+
 
 
 

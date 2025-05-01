@@ -1,11 +1,9 @@
 .section-heading {
   font-size: 56px;
 }
-
 .bg-section-light {
   background-color: #f6f6f9;
 }
-
 .title-label {
   background-color: var(--blue10);
   font-size: 16px;
@@ -24,34 +22,26 @@
   border: 1px solid var(--white40);
   font-size: 14px;
 }
-
-.hero-section-content h1 {
-  max-width: 89%;
+.hero-section-content h2 {
+    max-width: 89%;
 }
-
 .hero-section-content ul {
   max-width: 70%;
 }
-
 .section-points li img {
   width: 32px;
 }
-
 .section-points li {
   font-size: 22px;
 }
-
 .hero-section-content a {
   font-size: 20px;
   padding: 14px 30px;
   border-radius: 12px !important;
 }
-
-.hero-section-bottom h2 {
+.hero-section-bottom h3 {
   font-size: 28px;
-  color: var(--grey);
 }
-
 .hero-section-bottom {
   border-left: 1px solid var(--greyWhite);
   border-right: 1px solid var(--greyWhite);
@@ -66,16 +56,13 @@
 .slider-section-heading {
   font-size: 38px;
 }
-
 .slider-section .slider img {
   width: 200px;
   height: 110px;
 }
-
 .slick-slide {
   height: auto !important;
 }
-
 .slider-section-heading {
   font-size: 36px;
 }
@@ -87,21 +74,18 @@
   background-size: cover;
   border-radius: 20px;
 }
-
 .first-step-wrapper h2 {
   font-size: 48px;
 }
-
 .first-step-wrapper p {
-  font-size: 24px;
+    font-size: 24px;
   opacity: 70%;
   max-width: 85%;
 }
-
 .first-step-wrapper a {
-  font-size: 22px;
-  padding: 14px 26px;
-  border-radius: 12px;
+    font-size: 22px;
+    padding: 14px 26px;
+    border-radius: 12px;
 }
 
 //----------------- Testimonial Slider -----------------
@@ -109,54 +93,44 @@
   font-size: 24px;
   line-height: 36px;
 }
-
 .card-image {
   background-color: var(--grey2);
 }
-
 .card-image-content {
   background-color: var(--black16);
   backdrop-filter: blur(60px);
 }
-
-.card-image-content h5 {
+.card-image-content h5{
   font-size: 28px;
 }
-
 .card-image-content p {
   font-size: 22px;
   opacity: 76%;
 }
-
 .card-content {
   background: url("../assets/images/microCommitment/Qoutes.png") top right no-repeat;
-  background-size: 65px;
+  background-size: 80px;
 }
-
 .card-content h3 {
   font-size: 34px;
 }
-
 .card-content p {
   font-size: 23px;
   color: var(--grey);
 }
-
 .arrow-wrapper {
   max-width: 188px;
   margin-top: -100px;
 }
-
 .arrow-wrapper button img {
   width: 70px;
 }
 
 
 //---------------- Form Section -------------
-.form-wrapper, .disqualify-section, .request-call-section {
+.form-wrapper {
   border: 1px solid var(--greyWhite);
 }
-
 .form-header-content span {
   font-size: 18px;
   background-color: var(--white10);
@@ -164,32 +138,26 @@
   border: 1px solid var(--white50);
   opacity: 65%;
 }
-
 .form-header-active span {
   background-color: #FA9A1B;
   opacity: 1;
   border: none;
 }
-
 .form-header-content p {
-  font-size: 22px;
-  opacity: 65%;
+    font-size: 22px;
+    opacity: 65%;
 }
-
 .form-header-active p {
   opacity: 1;
 }
-
 .form-header-content hr {
   width: 60px;
   color: var(--white);
   opacity: 35%;
 }
-
 .form-header-complete hr {
   opacity: 1;
 }
-
 .form-header-complete span {
   display: none;
 }
@@ -201,141 +169,52 @@
 .form-header-content img {
   width: 38px;
 }
-
-.step1-form-content, .disqualify-content, .step3-form-content, .request-call-content, .step2-form-content {
+.step1-form-content, .step2-form-content, .step3-form-content {
   border-bottom: 1px solid var(--whiteLight1);
 }
-
 .form-heading {
-  font-size: 30px;
+    font-size: 30px;
 }
-
 .form-text {
   font-size: 22px;
 }
-
-.form-text-2 {
-  font-size: 19px;
-}
-
 .form-header-complete p {
   color: var(--white) !important;
   opacity: 1;
 }
-
 .step1-form-btn-wrapper label {
   border: 1px solid var(--whiteLight1);
   color: var(--grey);
   font-size: 22px;
   transition: background-color 0.3s, color 0.3s;
 }
-
 .step1-form-btn-wrapper label:hover,
 .step1-form-btn-wrapper input:checked + label {
-  background-color: var(--yellow) !important;
+  background-color: var(--blue) !important;
   color: var(--white) !important;
 }
-
-.disqualify-options, .step2-form-options {
+.step2-form-options {
   padding-top: 35px;
   padding-bottom: 35px;
 }
-
-.disqualify-options span , .step2-form-options span{
+.step2-form-options span {
   border: 1px solid var(--whiteLight1);
   cursor: pointer;
   font-size: 20px;
 }
-
 .form-heading-other {
   font-size: 22px;
 }
-
 .qualify-benefits h6 {
-  font-size: 20px;
+    font-size: 20px;
   color: var(--disable);
 }
-
 .qualify-benefits-points p img {
   width: 32px;
 }
-
-.qualify-benefits-points p span {
+.qualify-benefits-points p span{
   color: var(--grey);
   font-size: 24px;
-}
-
-.step3-form-call-btn {
-  a {
-    padding: 12px;
-  }
-
-  img {
-    width: 55px;
-  }
-}
-
-.step3-form-call-btn p:first-child {
-  font-size: 18px;
-}
-
-.step3-form-call-btn p:last-child {
-  font-size: 22px;
-}
-.step3-form-call-buttons p {
-    font-size: 22px;
-}
-.step3-form-enroll {
-  background-color: var(--red4);
-  padding-bottom: 30px;
-  padding-top: 30px;
-  border-top: 1px solid var(--greyWhite);
-}
-.step3-form-enroll img {
-  width: 50px;
-}
-.step3-form-enroll p {
-  font-size: 22px;
-  color: var(--grey);
-}
-.request-call-form form input {
-  background-color: #FCFCFC;
-}
-.request-call-form form input::placeholder {
-  color: var(--disable);
-  font-weight: 400;
-}
-.request-call-form form input:focus, .request-call-form form input:active {
-  outline: none;
-  box-shadow: none;
-  border-color: var(--greyWhite);
-}
-.request-call-form .date-form-input::placeholder {
-  text-transform: uppercase;
-}
-.number-form-input::-webkit-outer-spin-button,
-.number-form-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-input[type="date"]::-webkit-calendar-picker-indicator {
-  display: none;
-  -webkit-appearance: none;
-}
-input[type="date"] {
-  position: relative;
-  color: var(--disable);
-  text-transform: uppercase;
-}
-.request-call-form-buttons span {
-  background-color: var(--whiteLight2);
-  border: 1px solid var(--whiteLight1);
-  font-size: 22px;
-}
-.request-call-form-buttons button {
-  font-size: 22px;
-
 }
 
 
@@ -422,63 +301,11 @@ input[type="date"] {
     width: 60px;
   }
   .card-content {
-    background-size: 60px;
+    background-size: 80px;
   }
 
 
   //---------------- Form Section -------------
-  .form-header-content p {
-    font-size: 20px;
-  }
-  .form-heading {
-    font-size: 26px;
-  }
-  .form-text {
-    font-size: 18px;
-  }
-  .form-text-2 {
-    font-size: 16px;
-  }
-  .step1-form-btn-wrapper label {
-    font-size: 18px;
-  }
-  .step3-form-call-btn p:first-child {
-    font-size: 14px;
-  }
-  .step3-form-call-btn p:last-child {
-    font-size: 16px;
-  }
-  .step3-form-call-btn img {
-    width: 40px;
-  }
-  .form-heading-other {
-    font-size: 20px;
-  }
-  .disqualify-options, .step2-form-options {
-    padding-top: 28px;
-    padding-bottom: 28px;
-  }
-  .disqualify-options span, .step2-form-options span {
-    font-size: 18px;
-  }
-  .qualify-benefits h6 {
-    font-size: 18px;
-  }
-  .qualify-benefits-points p span {
-    font-size: 22px;
-  }
-  .qualify-benefits-points p img {
-    width: 28px;
-  }
-  .step3-form-call-buttons p {
-    font-size: 20px;
-  }
-  .step3-form-enroll img {
-    width: 42px;
-  }
-  .step3-form-enroll p {
-    font-size: 20px;
-  }
 
 }
 
@@ -519,8 +346,6 @@ input[type="date"] {
     font-size: 20px;
     max-width: 100%;
   }
-
- //------ Testimonial Slider ----------
   .card-image-content h5 {
     font-size: 18px;
   }
@@ -543,7 +368,7 @@ input[type="date"] {
     margin-top: -80px;
   }
   .card-content {
-    background-size: 45px;
+    background-size: 60px;
   }
 
 
@@ -597,34 +422,11 @@ input[type="date"] {
     width: 38px;
   }
   .card-content {
-    background-size: 40px;
+    background-size: 50px;
   }
 
 
   //---------------- Form Section -------------
-  .form-header-outer {
-    overflow-x: auto;
-
-    &::-webkit-scrollbar {
-        display: none;
-    }
-  }
-  .form-header {
-    width: 135%;
-  }
-  .form-heading-other {
-    font-size: 20px;
-    line-height: 32px;
-  }
-  .request-call-form-buttons span {
-    font-size: 18px;
-  }
-  .request-call-form-buttons button {
-    font-size: 18px;
-  }
-  .request-call-form form input {
-    font-size: 18px;
-  }
 }
 
 
@@ -651,20 +453,17 @@ input[type="date"] {
   }
   .card-image-mobile {
     background: url("../assets/images/microCommitment/Qoutes.png") top right no-repeat;
-    background-size: 30px;
+    background-size: 40px;
   }
   .arrow-wrapper {
     max-width: 100%;
-    margin-top: -20px;
+    margin-top: -30px;
   }
   .card-content p {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   //---------------- Form Section -------------
-  .form-header {
-    width: 175%;
-  }
 }
 
 
@@ -672,29 +471,23 @@ input[type="date"] {
   .arrow-wrapper {
     margin-top: 20px;
   }
-  .card-content {
-    background: none;
-  }
-  .card-image-mobile-radius {
-    border-radius: 15px;
-  }
 }
 
 
 @media (max-width: 576px) {
-  .section-heading {
-    font-size: 28px;
-  }
+    .section-heading {
+      font-size: 28px;
+    }
 
-  //------ Hero Section -----
-  .hero-section-tag {
-    margin-top: 10px;
-    font-size: 12px;
-    display: inline-block;
-  }
-  .section-points li {
-    font-size: 16px;
-  }
+    //------ Hero Section -----
+    .hero-section-tag {
+      margin-top: 10px;
+      font-size: 12px;
+      display: inline-block;
+    }
+    .section-points li {
+      font-size: 16px;
+    }
   .hero-section-bottom {
     text-align: center;
   }
@@ -704,10 +497,6 @@ input[type="date"] {
   .hero-section-bottom h3 {
     font-size: 20px;
     line-height: 23px;
-  }
-  .hero-section-content a {
-    font-size: 13px;
-    padding: 12px 18px;
   }
 
   //--------- Slider Section ------
@@ -727,7 +516,7 @@ input[type="date"] {
   .slick-slide > div {
     width: 100%;
   }
-  .slick-slide > div > div:first-child {
+  .slick-slide > div > div:first-child{
     justify-content: end;
   }
   .slider-section-heading {
@@ -740,7 +529,6 @@ input[type="date"] {
   }
   .first-step-wrapper p {
     font-size: 16px;
-    opacity: 1;
   }
 
   //----------------- Testimonial Slider ----------------
@@ -751,84 +539,5 @@ input[type="date"] {
 
 
   //---------------- Form Section -------------
-  .form-header-content p {
-    font-size: 16px;
-  }
-  .form-header-content span {
-    font-size: 16px;
-  }
-  .form-heading {
-    font-size: 20px;
-  }
-  .step1-form-content, .disqualify-content, .step3-form-content, .request-call-content, .step2-form-content {
-    background-color: var(--white) !important;
-  }
-  .form-text {
-    font-size: 16px;
-    text-transform: capitalize;
-  }
-  .form-text-2 {
-    font-size: 14px;
-  }
-  .form-header {
-    width: 232%;
-  }
-  .step1-form-btn-wrapper label {
-    font-size: 14px;
-    padding: 10px 15px !important;
-    border-radius: 10px !important;
-  }
-  .form-heading-other {
-    font-size: 15px;
-    line-height: 24px;
-  }
-  .disqualify-options, .step2-form-options {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .disqualify-options span, .step2-form-options span {
-    font-size: 14px;
-  }
-  .disqualify-options span img, .step2-form-options span img {
-    width: 30px;
-  }
-  .qualify-benefits h6 {
-    font-size: 14px;
-  }
-  .qualify-benefits-points p {
-    width: 50%;
-    margin-bottom: 15px !important;
-  }
-  .qualify-benefits-points p span {
-    font-size: 19px;
-  }
-  .qualify-benefits-points p img {
-    width: 26px;
-  }
-  .qualify-benefits-points p span:last-child {
-    text-wrap: nowrap;
-  }
-  .step3-form-call-buttons p {
-    font-size: 16px;
-    text-transform: capitalize;
-  }
-  .step3-form-enroll p {
-    font-size: 16px;
-  }
-  .step3-form-enroll {
-    padding-bottom: 18px;
-    padding-top: 18px;
-  }
-  .request-call-form form input {
-    font-size: 14px;
-    border-radius: 8px !important;
-  }
-  .request-call-form-buttons button {
-    font-size: 14px;
-    border-radius: 10px !important;
-  }
-  .request-call-form-buttons span {
-    font-size: 14px;
-    border-radius: 10px !important;
-  }
+
 }

@@ -1,30 +1,13 @@
 //------------------ Header ------------------
 .logo-image {
-  width: 140px;
+  width: 200px;
 }
 
 .call-to-action a {
   padding: 10px 18px;
-  font-size: 16px;
 
   img {
     width: 22px;
-  }
-}
-
-.extra-header-btn {
-  img {
-    width: 48px !important;
-  }
-
-  p {
-    font-size: 16px;
-    opacity: 70%;
-  }
-
-  span {
-    color: var(--grey) !important;
-    font-size: 16px;
   }
 }
 
@@ -39,11 +22,7 @@
   font-size: 50px;
 }
 
-.footer-logo-slogan p {
-  font-size: 18px;
-}
-
-.footer-logo-slogan, .contact-information {
+.footer-logo-slogan {
   border-bottom: 2px solid var(--whiteTransparent);
 }
 
@@ -63,19 +42,15 @@
 }
 
 .legal-compliance-wrapper {
-  width: 90%;
+  width: 80%;
 }
 
 .legal-compliance {
   border-left: 2px solid var(--whiteTransparent);
 }
 
-.personal-share-link a {
-  font-size: 20px;
-}
-
 .copyright-text {
-  font-size: 3vw;
+  font-size: 9.5vw;
   color: var(--white);
   opacity: 40%;
 }
@@ -83,24 +58,9 @@
 
 //--------------- Media Queries -----------------
 @media (max-width: 1440px) {
-  //-------- Header ---------
   .logo-image {
-    width: 130px;
+    width: 170px;
   }
-  .extra-header-btn {
-    img {
-      width: 42px !important;
-    }
-
-    p {
-      font-size: 14px;
-    }
-
-    span {
-      font-size: 14px;
-    }
-  }
-
 
   //-------- Footer  -------
   .footer-logo {
@@ -117,58 +77,20 @@
   }
 }
 
-@media (max-width: 1200px) {
-  .logo-image {
-    width: 120px;
-  }
-
-  .legal-compliance-wrapper {
-    width: 100%;
-    padding-left: 30px;
-  }
-}
-
 @media (max-width: 992px) {
   .logo-image {
-    width: 110px;
+    width: 160px;
   }
 
   //--------- Footer ------
   .copyright-text {
-    font-size: 2.9vw;
-  }
-  .footer-logo-slogan p, .personal-share-link a {
-    font-size: 16px;
-  }
-  .footer-text-info {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 991px) {
-  .legal-compliance-wrapper {
-    padding-left: 0;
-
-    a {
-      width: 33%;
-    }
-
-    a:last-child {
-      //padding-left: 20px;
-    }
-  }
-  .legal-compliance {
-    border: none;
+    font-size: 9.2vw;
   }
 }
 
 @media (max-width: 576px) {
   .logo-image {
-    width: 100px;
-  }
-  .call-to-action a {
-    padding: 8px 16px;
-    font-size: 14px;
+    width: 150px;
   }
 
   //------- footer -------
@@ -180,20 +102,16 @@
     margin-bottom: 20px !important;
   }
   .contact-information address {
-    //border-bottom: 2px solid var(--whiteTransparent);
-    //padding-bottom: 20px;
+    border-bottom: 2px solid var(--whiteTransparent);
+    padding-bottom: 20px;
   }
   .legal-compliance-wrapper {
     padding-top: 10px;
   }
-  .legal-compliance-wrapper a {
-    width: 100%;
+  .legal-compliance-wrapper a:last-child {
+    padding-left: 0;
   }
-
   .footer-text-info {
     font-size: 16px;
-  }
-  .footer-logo-slogan p, .personal-share-link a {
-    font-size: 14px;
   }
 }
